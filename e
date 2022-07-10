@@ -71,7 +71,8 @@ function Aiming.UpdateFOV()
         -- // Set Circle Properties
         circle.Visible = Aiming.ShowFOV
         circle.Radius = (Aiming.FOV * 3)
-        circle.Position = Vector2new(Mouse.X, Mouse.Y + GetGuiInset(GuiService).Y)
+        circle.Position = Vector2new(CurrentCamera.
+ViewportSize.X / 2, CurrentCamera.ViewportSize.Y / 2)
         circle.NumSides = Aiming.FOVSides
         circle.Color = Aiming.FOVColour
 
@@ -310,7 +311,8 @@ function Aiming.GetClosestTargetPartToCursor(Character)
 
         if (TargetPart) then
             local PartPos, onScreen = WorldToViewportPoint(CurrentCamera, TargetPart.Position)
-            local Magnitude = (Vector2new(PartPos.X, PartPos.Y) - Vector2new(Mouse.X, Mouse.Y)).Magnitude
+            local Magnitude = (Vector2new(PartPos.X, PartPos.Y) - Vector2new(CurrentCamera.
+ViewportSize.X / 2, CurrentCamera.ViewportSize.Y / 2)).Magnitude
 
             if (Magnitude < ShortestDistance) then
                 ClosestPart = TargetPart
