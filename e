@@ -42,7 +42,7 @@ getgenv().Aiming = {
     FOVColour = Color3fromRGB(10,10,10),
     VisibleCheck = true,
     FOV = 0,
-    FOVFilled = false
+    
     HitChance = 100,
     Selected = LocalPlayer,
     SelectedPart = nil,
