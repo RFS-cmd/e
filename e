@@ -43,10 +43,10 @@ getgenv().Aiming = {
     VisibleCheck = true,
     FOV = 0,
     
-    HitChance = 9999999,
+    HitChance = 100,
     Selected = LocalPlayer,
     SelectedPart = nil,
-    TargetPart = {"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso"},
+    TargetPart = {"HumanoidRootPart"},
     Ignored = {
         Teams = {
             {
