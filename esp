@@ -1,3 +1,5 @@
+pcall(function() getgenv().loaded77 = true end)
+
 if loaded77 == true then
     	error("nuker is already loaded",0)
 	return
