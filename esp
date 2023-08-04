@@ -21,11 +21,11 @@ _G.Whitelisted = { -- add a userid so it doesn't fling them
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua"))() -- Anti Screenshot
 loadstring(game:HttpGet("https://pastebin.com/raw/8vRbDjT7", true))() -- Anti Chat Logger
 _G.thingtosay = {
-    '<font color="#FF0000" size="24">[krocts 🦅] @krocts on top</font>',
-    '<font color="#FF0000" size="24">[krocts 🦅] @krocts on top</font>',
-    '<font color="#FF0000" size="24">[krocts 🦅] @krocts on top</font>',
-    '<font color="#FF0000" size="24">[krocts 🦅] @krocts on top</font>',
-    '<font color="#FF0000" size="24">[krocts 🦅] @krocts on top</font>'
+    '<font color="#FF0000" size="23">[krocts 🦅] @krocts on top</font>',
+    '<font color="#FF0000" size="23">[krocts 🦅] @krocts on roblox</font>',
+    '<font color="#FF0000" size="23">[krocts 🦅] @krocts on discard</font>',
+    '<font color="#FF0000" size="23">[krocts 🦅] @krocts on top</font>',
+    '<font color="#FF0000" size="23">[krocts 🦅] @krocts on top</font>'
 }
 
 coroutine.resume(coroutine.create(function() while wait(1) do pcall(function() for _,z in next, Players:GetPlayers() do if z ~= LocalPlayer then for _,v in next, z.Backpack:GetDescendants() do if v:IsA'Sound' then v.TimePosition = nil end end end end end) end end)) 
