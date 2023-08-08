@@ -21,11 +21,11 @@ _G.Whitelisted = { -- add a userid so it doesn't fling them
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua"))() -- Anti Screenshot
 --loadstring(game:HttpGet("https://pastebin.com/raw/8vRbDjT7", true))() -- Anti Chat Logger
 _G.thingtosay = {
-    '[krocts.ai 🦅] krocts on roblox 🦅 - krocts',
-    '[krocts.ai 🐵] ӏ⁥⁥⁥g⁥⁥⁥b⁥⁥⁥t⁥⁥⁥q⁥⁥⁥?⁥⁥⁥ ⁥⁥⁥k⁥⁥⁥i⁥⁥⁥ӏ⁥⁥⁥ӏ⁥⁥⁥ ⁥⁥⁥t⁥⁥⁥h⁥⁥⁥е⁥⁥⁥m⁥⁥⁥ ⁥⁥⁥а⁥⁥⁥ӏ⁥⁥⁥ӏ - krocts',
-    '[krocts.ai 🦅] ӏ⁥⁥⁥g⁥⁥⁥b⁥⁥⁥t⁥⁥⁥q⁥⁥⁥+⁥⁥⁥ ⁥⁥⁥i⁥⁥⁥ѕ⁥⁥⁥ ⁥⁥⁥r⁥⁥⁥е⁥⁥⁥ӏ⁥⁥⁥а⁥⁥⁥t⁥⁥⁥е⁥⁥⁥d⁥⁥⁥ ⁥⁥⁥t⁥⁥⁥о⁥⁥⁥ ⁥⁥⁥а⁥⁥⁥u⁥⁥⁥t⁥⁥⁥i⁥⁥⁥ѕ⁥⁥⁥m - krocts',
-    '[krocts.ai 🐵] k⁥⁥⁥i⁥⁥⁥ӏ⁥⁥⁥ӏ⁥⁥⁥ ⁥⁥⁥а⁥⁥⁥ӏ⁥⁥⁥ӏ⁥⁥⁥ ⁥⁥⁥ӏ⁥⁥⁥g⁥⁥⁥b⁥⁥⁥t⁥⁥⁥q⁥⁥⁥+ - krocts',
-    '[krocts.ai 🦅] add me on dizzy if u want a free custom msg > krocts - krocts'
+    '[krocts 🦅] krocts on roblox 🦅 - krocts',
+    '[krocts 🦅] ӏ⁥⁥⁥g⁥⁥⁥b⁥⁥⁥t⁥⁥⁥q⁥⁥⁥?⁥⁥⁥ ⁥⁥⁥k⁥⁥⁥i⁥⁥⁥ӏ⁥⁥⁥ӏ⁥⁥⁥ ⁥⁥⁥t⁥⁥⁥h⁥⁥⁥е⁥⁥⁥m⁥⁥⁥ ⁥⁥⁥а⁥⁥⁥ӏ⁥⁥⁥ӏ - krocts',
+    '[krocts 🦅] ӏ⁥⁥⁥g⁥⁥⁥b⁥⁥⁥t⁥⁥⁥q⁥⁥⁥+⁥⁥⁥ ⁥⁥⁥i⁥⁥⁥ѕ⁥⁥⁥ ⁥⁥⁥r⁥⁥⁥е⁥⁥⁥ӏ⁥⁥⁥а⁥⁥⁥t⁥⁥⁥е⁥⁥⁥d⁥⁥⁥ ⁥⁥⁥t⁥⁥⁥о⁥⁥⁥ ⁥⁥⁥а⁥⁥⁥u⁥⁥⁥t⁥⁥⁥i⁥⁥⁥ѕ⁥⁥⁥m - krocts',
+    '[krocts 🦅] k⁥⁥⁥i⁥⁥⁥ӏ⁥⁥⁥ӏ⁥⁥⁥ ⁥⁥⁥а⁥⁥⁥ӏ⁥⁥⁥ӏ⁥⁥⁥ ⁥⁥⁥ӏ⁥⁥⁥g⁥⁥⁥b⁥⁥⁥t⁥⁥⁥q⁥⁥⁥+ - krocts',
+    '[krocts 🦅] add me on dizzy if u want a free custom msg > krocts - krocts'
 }
 
 coroutine.resume(coroutine.create(function() while wait(1) do pcall(function() for _,z in next, Players:GetPlayers() do if z ~= LocalPlayer then for _,v in next, z.Backpack:GetDescendants() do if v:IsA'Sound' then v.TimePosition = nil end end end end end) end end)) 
